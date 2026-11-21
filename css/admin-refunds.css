@@ -1,0 +1,6 @@
+@import url('./admin-common.css');
+
+.reason-cell {
+  max-width: 260px;
+  color: var(--text-secondary);
+}

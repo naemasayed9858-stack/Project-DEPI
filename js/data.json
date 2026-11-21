@@ -1,0 +1,709 @@
+{
+  "profile": {
+    "name": "Admin User",
+    "initials": "AU",
+    "email": "admin@flyra.com",
+    "role": "Admin",
+    "title": "Administrator",
+    "department": "Management",
+    "phone": "+971 50 100 0001",
+    "lastLogin": "2026-09-04 09:30"
+  },
+  "flights": [
+    {
+      "id": "FY-101",
+      "airline": "Flyra",
+      "from": "Dubai",
+      "fromCode": "DXB",
+      "to": "Jeddah",
+      "toCode": "JED",
+      "departure": "2026-09-04 08:00",
+      "arrival": "2026-09-04 10:30",
+      "duration": "2h 30m",
+      "aircraft": "Airbus A320",
+      "gate": "B12",
+      "availableSeats": 142,
+      "totalSeats": 180,
+      "price": 320,
+      "status": "Scheduled",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-204",
+      "airline": "Flyra",
+      "from": "Cairo",
+      "fromCode": "CAI",
+      "to": "Dubai",
+      "toCode": "DXB",
+      "departure": "2026-09-04 14:00",
+      "arrival": "2026-09-04 19:00",
+      "duration": "3h 00m",
+      "aircraft": "Airbus A320",
+      "gate": "A04",
+      "availableSeats": 78,
+      "totalSeats": 162,
+      "price": 280,
+      "status": "Scheduled",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-310",
+      "airline": "Flyra",
+      "from": "Jeddah",
+      "fromCode": "JED",
+      "to": "Istanbul",
+      "toCode": "IST",
+      "departure": "2026-09-04 09:15",
+      "arrival": "2026-09-04 12:45",
+      "duration": "3h 30m",
+      "aircraft": "Airbus A321",
+      "gate": "C08",
+      "availableSeats": 55,
+      "totalSeats": 200,
+      "price": 410,
+      "status": "Delayed",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-505",
+      "airline": "Flyra",
+      "from": "Riyadh",
+      "fromCode": "RUH",
+      "to": "Cairo",
+      "toCode": "CAI",
+      "departure": "2026-09-04 16:30",
+      "arrival": "2026-09-04 19:00",
+      "duration": "2h 30m",
+      "aircraft": "Airbus A320",
+      "gate": "A05",
+      "availableSeats": 120,
+      "totalSeats": 180,
+      "price": 290,
+      "status": "Boarding",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-607",
+      "airline": "Flyra",
+      "from": "Doha",
+      "fromCode": "DOH",
+      "to": "London",
+      "toCode": "LHR",
+      "departure": "2026-09-04 01:00",
+      "arrival": "2026-09-04 06:30",
+      "duration": "7h 30m",
+      "aircraft": "Boeing 787",
+      "gate": "B12",
+      "availableSeats": 0,
+      "totalSeats": 248,
+      "price": 680,
+      "status": "Departed",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-108",
+      "airline": "Flyra",
+      "from": "Dubai",
+      "fromCode": "DXB",
+      "to": "Paris",
+      "toCode": "CDG",
+      "departure": "2026-09-04 22:00",
+      "arrival": "2026-09-05 04:30",
+      "duration": "7h 30m",
+      "aircraft": "Boeing 777",
+      "gate": "D02",
+      "availableSeats": 98,
+      "totalSeats": 220,
+      "price": 720,
+      "status": "Scheduled",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-220",
+      "airline": "Flyra",
+      "from": "Amman",
+      "fromCode": "AMM",
+      "to": "Dubai",
+      "toCode": "DXB",
+      "departure": "2026-09-04 11:00",
+      "arrival": "2026-09-04 14:00",
+      "duration": "3h 00m",
+      "aircraft": "Boeing 737",
+      "gate": "C14",
+      "availableSeats": 45,
+      "totalSeats": 162,
+      "price": 340,
+      "status": "Cancelled",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-215",
+      "airline": "Flyra",
+      "from": "Riyadh",
+      "fromCode": "RUH",
+      "to": "Amman",
+      "toCode": "AMM",
+      "departure": "2026-09-04 07:00",
+      "arrival": "2026-09-04 09:15",
+      "duration": "2h 15m",
+      "aircraft": "Airbus A320",
+      "gate": "A11",
+      "availableSeats": 16,
+      "totalSeats": 180,
+      "price": 310,
+      "status": "Completed",
+      "scheduleGroup": "today"
+    },
+    {
+      "id": "FY-412",
+      "airline": "Flyra",
+      "from": "Abu Dhabi",
+      "fromCode": "AUH",
+      "to": "Munich",
+      "toCode": "MUC",
+      "departure": "2026-09-05 07:30",
+      "arrival": "2026-09-05 12:15",
+      "duration": "6h 45m",
+      "aircraft": "Boeing 787",
+      "gate": "D09",
+      "availableSeats": 62,
+      "totalSeats": 220,
+      "price": 640,
+      "status": "Scheduled",
+      "scheduleGroup": "upcoming"
+    },
+    {
+      "id": "FY-512",
+      "airline": "Flyra",
+      "from": "Kuwait",
+      "fromCode": "KWI",
+      "to": "Cairo",
+      "toCode": "CAI",
+      "departure": "2026-09-06 10:00",
+      "arrival": "2026-09-06 12:40",
+      "duration": "2h 40m",
+      "aircraft": "Airbus A320",
+      "gate": "B07",
+      "availableSeats": 135,
+      "totalSeats": 180,
+      "price": 275,
+      "status": "Scheduled",
+      "scheduleGroup": "upcoming"
+    }
+  ],
+  "bookings": [
+    {
+      "ref": "BK-1001",
+      "customer": "Ahmed Al-Rashid",
+      "email": "ahmed.rashid@gmail.com",
+      "flight": "FY-101",
+      "route": "Dubai → Jeddah",
+      "date": "2026-09-04 08:00",
+      "passengers": 1,
+      "totalPrice": 320,
+      "paymentStatus": "Paid",
+      "bookingStatus": "Confirmed"
+    },
+    {
+      "ref": "BK-1002",
+      "customer": "Fatima Al-Zahra",
+      "email": "fatima.zahra@gmail.com",
+      "flight": "FY-310",
+      "route": "Jeddah → Istanbul",
+      "date": "2026-09-04 09:15",
+      "passengers": 2,
+      "totalPrice": 820,
+      "paymentStatus": "Paid",
+      "bookingStatus": "Confirmed"
+    },
+    {
+      "ref": "BK-1003",
+      "customer": "Sarah Mitchell",
+      "email": "sarah.mitchell@gmail.com",
+      "flight": "FY-204",
+      "route": "Cairo → Dubai",
+      "date": "2026-09-04 14:00",
+      "passengers": 1,
+      "totalPrice": 280,
+      "paymentStatus": "Pending",
+      "bookingStatus": "Pending"
+    },
+    {
+      "ref": "BK-1004",
+      "customer": "Noura Al-Saud",
+      "email": "noura.saud@gmail.com",
+      "flight": "FY-108",
+      "route": "Dubai → Paris",
+      "date": "2026-09-04 22:00",
+      "passengers": 1,
+      "totalPrice": 720,
+      "paymentStatus": "Paid",
+      "bookingStatus": "Confirmed"
+    },
+    {
+      "ref": "BK-1005",
+      "customer": "Mohammed Hassan",
+      "email": "mohammed.hassan@gmail.com",
+      "flight": "FY-220",
+      "route": "Amman → Dubai",
+      "date": "2026-09-04 11:00",
+      "passengers": 1,
+      "totalPrice": 340,
+      "paymentStatus": "Refunded",
+      "bookingStatus": "Cancelled"
+    },
+    {
+      "ref": "BK-1006",
+      "customer": "Aisha Mohammed",
+      "email": "aisha.mohammed@gmail.com",
+      "flight": "FY-505",
+      "route": "Riyadh → Cairo",
+      "date": "2026-09-04 16:30",
+      "passengers": 1,
+      "totalPrice": 290,
+      "paymentStatus": "Paid",
+      "bookingStatus": "Confirmed"
+    },
+    {
+      "ref": "BK-1007",
+      "customer": "Layla Ibrahim",
+      "email": "layla.ibrahim@gmail.com",
+      "flight": "FY-215",
+      "route": "Riyadh → Amman",
+      "date": "2026-09-05 12:00",
+      "passengers": 1,
+      "totalPrice": 310,
+      "paymentStatus": "Pending",
+      "bookingStatus": "Pending"
+    },
+    {
+      "ref": "BK-1008",
+      "customer": "Pierre Dubois",
+      "email": "pierre.dubois@gmail.com",
+      "flight": "FY-101",
+      "route": "Dubai → Jeddah",
+      "date": "2026-09-05 08:00",
+      "passengers": 2,
+      "totalPrice": 640,
+      "paymentStatus": "Paid",
+      "bookingStatus": "Confirmed"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUS-01",
+      "initials": "AR",
+      "name": "Ahmed Al-Rashid",
+      "email": "ahmed.rashid@gmail.com",
+      "phone": "+971 50 123 4567",
+      "bookings": 12,
+      "country": "UAE",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-02",
+      "initials": "SM",
+      "name": "Sarah Mitchell",
+      "email": "sarah.mitchell@gmail.com",
+      "phone": "+44 7700 900456",
+      "bookings": 8,
+      "country": "UK",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-03",
+      "initials": "MH",
+      "name": "Mohammed Hassan",
+      "email": "mohammed.hassan@gmail.com",
+      "phone": "+20 100 234 5678",
+      "bookings": 5,
+      "country": "Egypt",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-04",
+      "initials": "FZ",
+      "name": "Fatima Al-Zahra",
+      "email": "fatima.zahra@gmail.com",
+      "phone": "+966 55 123 4567",
+      "bookings": 15,
+      "country": "Saudi Arabia",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-05",
+      "initials": "JD",
+      "name": "John Davidson",
+      "email": "john.davidson@gmail.com",
+      "phone": "+1 555 123 4567",
+      "bookings": 2,
+      "country": "USA",
+      "status": "Blocked"
+    },
+    {
+      "id": "CUS-06",
+      "initials": "LI",
+      "name": "Layla Ibrahim",
+      "email": "layla.ibrahim@gmail.com",
+      "phone": "+962 7 9012 3456",
+      "bookings": 7,
+      "country": "Jordan",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-07",
+      "initials": "PD",
+      "name": "Pierre Dubois",
+      "email": "pierre.dubois@gmail.com",
+      "phone": "+33 6 1234 5678",
+      "bookings": 4,
+      "country": "France",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-08",
+      "initials": "NS",
+      "name": "Noura Al-Saud",
+      "email": "noura.saud@gmail.com",
+      "phone": "+966 50 987 6543",
+      "bookings": 20,
+      "country": "Saudi Arabia",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-09",
+      "initials": "AM",
+      "name": "Aisha Mohammed",
+      "email": "aisha.mohammed@gmail.com",
+      "phone": "+971 52 876 5432",
+      "bookings": 9,
+      "country": "UAE",
+      "status": "Active"
+    },
+    {
+      "id": "CUS-10",
+      "initials": "KT",
+      "name": "Karim Tarek",
+      "email": "karim.tarek@gmail.com",
+      "phone": "+20 111 456 7890",
+      "bookings": 3,
+      "country": "Egypt",
+      "status": "Active"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-01",
+      "initials": "AU",
+      "color": "#2563EB",
+      "name": "Admin User",
+      "email": "admin@flyra.com",
+      "phone": "+971 50 100 0001",
+      "role": "Admin",
+      "department": "Management",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-02",
+      "initials": "OA",
+      "color": "#0D9488",
+      "name": "Omar Al-Farsi",
+      "email": "omar.farsi@flyra.com",
+      "phone": "+971 50 200 1122",
+      "role": "Flight Manager",
+      "department": "Flight Operations",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-03",
+      "initials": "MS",
+      "color": "#16A34A",
+      "name": "Mariam Saleh",
+      "email": "mariam.saleh@flyra.com",
+      "phone": "+971 50 300 2233",
+      "role": "Customer Service",
+      "department": "Customer Service",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-04",
+      "initials": "KI",
+      "color": "#EA580C",
+      "name": "Khaled Ibrahim",
+      "email": "khaled.ibrahim@flyra.com",
+      "phone": "+971 50 400 3344",
+      "role": "Finance",
+      "department": "Finance",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-05",
+      "initials": "SA",
+      "color": "#2563EB",
+      "name": "Sara Al-Dabbous",
+      "email": "sara.dabbous@flyra.com",
+      "phone": "+971 50 500 4455",
+      "role": "Customer Service",
+      "department": "Customer Service",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-06",
+      "initials": "YH",
+      "color": "#DC2626",
+      "name": "Youssef Haddad",
+      "email": "youssef.haddad@flyra.com",
+      "phone": "+971 50 600 5566",
+      "role": "Flight Manager",
+      "department": "Flight Operations",
+      "status": "Active"
+    },
+    {
+      "id": "EMP-07",
+      "initials": "RK",
+      "color": "#0891B2",
+      "name": "Reem Al-Kuwari",
+      "email": "reem.kuwari@flyra.com",
+      "phone": "+971 50 700 6677",
+      "role": "Finance",
+      "department": "Finance",
+      "status": "Inactive"
+    }
+  ],
+  "payments": [
+    {
+      "id": "TXN-001",
+      "booking": "BK-1001",
+      "customer": "Ahmed Al-Rashid",
+      "amount": 320,
+      "method": "Credit Card",
+      "status": "Paid",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "TXN-002",
+      "booking": "BK-1002",
+      "customer": "Fatima Al-Zahra",
+      "amount": 820,
+      "method": "PayPal",
+      "status": "Paid",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "TXN-003",
+      "booking": "BK-1003",
+      "customer": "Sarah Mitchell",
+      "amount": 280,
+      "method": "Credit Card",
+      "status": "Pending",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "TXN-004",
+      "booking": "BK-1004",
+      "customer": "Noura Al-Saud",
+      "amount": 720,
+      "method": "Debit Card",
+      "status": "Refunded",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "TXN-005",
+      "booking": "BK-1005",
+      "customer": "Mohammed Hassan",
+      "amount": 340,
+      "method": "Credit Card",
+      "status": "Refunded",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "TXN-006",
+      "booking": "BK-1006",
+      "customer": "Aisha Mohammed",
+      "amount": 290,
+      "method": "Bank Transfer",
+      "status": "Paid",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "TXN-007",
+      "booking": "BK-1007",
+      "customer": "Layla Ibrahim",
+      "amount": 310,
+      "method": "Credit Card",
+      "status": "Pending",
+      "date": "2026-08-30"
+    },
+    {
+      "id": "TXN-008",
+      "booking": "BK-1008",
+      "customer": "Pierre Dubois",
+      "amount": 650,
+      "method": "Credit Card",
+      "status": "Paid",
+      "date": "2026-08-28"
+    }
+  ],
+  "refunds": [
+    {
+      "id": "REF-001",
+      "booking": "BK-1005",
+      "customer": "Mohammed Hassan",
+      "amount": 340,
+      "reason": "Flight cancelled by airline",
+      "status": "Processed",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "REF-002",
+      "booking": "BK-1003",
+      "customer": "Sarah Mitchell",
+      "amount": 280,
+      "reason": "Customer request - schedule conflict",
+      "status": "Pending",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "REF-003",
+      "booking": "BK-1007",
+      "customer": "Layla Ibrahim",
+      "amount": 310,
+      "reason": "Duplicate booking",
+      "status": "Approved",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "REF-004",
+      "booking": "BK-1002",
+      "customer": "Fatima Al-Zahra",
+      "amount": 410,
+      "reason": "Partial refund - seat downgrade",
+      "status": "Pending",
+      "date": "2026-09-01"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOT-01",
+      "category": "Flight",
+      "title": "Flight FY-310 Delayed",
+      "message": "Jeddah to Istanbul flight delayed by 45 minutes.",
+      "time": "5 min ago",
+      "unread": true
+    },
+    {
+      "id": "NOT-02",
+      "category": "Booking",
+      "title": "New Booking Confirmed",
+      "message": "Booking BK-1008 confirmed for Pierre Dubois.",
+      "time": "30 min ago",
+      "unread": true
+    },
+    {
+      "id": "NOT-03",
+      "category": "Payment",
+      "title": "Payment Received",
+      "message": "Payment of $720 received from Noura Al-Saud.",
+      "time": "1 hour ago",
+      "unread": true
+    },
+    {
+      "id": "NOT-04",
+      "category": "Flight",
+      "title": "Flight FY-220 Cancelled",
+      "message": "Amman to Dubai flight has been cancelled.",
+      "time": "2 hours ago",
+      "unread": false
+    },
+    {
+      "id": "NOT-05",
+      "category": "Refund",
+      "title": "Refund Processed",
+      "message": "Refund of $340 processed for Mohammed Hassan.",
+      "time": "3 hours ago",
+      "unread": false
+    }
+  ],
+  "activities": [
+    {
+      "initials": "AU",
+      "color": "#2563EB",
+      "actor": "Admin User",
+      "action": "created flight",
+      "target": "FY-512",
+      "time": "10 min ago"
+    },
+    {
+      "initials": "OA",
+      "color": "#0D9488",
+      "actor": "Omar Al-Farsi",
+      "action": "updated status for",
+      "target": "FY-310 to Delayed",
+      "time": "20 min ago"
+    },
+    {
+      "initials": "MS",
+      "color": "#16A34A",
+      "actor": "Mariam Saleh",
+      "action": "confirmed booking",
+      "target": "BK-1008",
+      "time": "45 min ago"
+    },
+    {
+      "initials": "KI",
+      "color": "#EA580C",
+      "actor": "Khaled Ibrahim",
+      "action": "verified payment for",
+      "target": "BK-1004",
+      "time": "1 hour ago"
+    },
+    {
+      "initials": "AU",
+      "color": "#2563EB",
+      "actor": "Admin User",
+      "action": "blocked customer",
+      "target": "John Davidson",
+      "time": "2 hours ago"
+    },
+    {
+      "initials": "SA",
+      "color": "#2563EB",
+      "actor": "Sara Al-Dabbous",
+      "action": "cancelled booking",
+      "target": "BK-1005",
+      "time": "3 hours ago"
+    }
+  ],
+  "charts": {
+    "bookingTrends": [
+      { "label": "Mon", "value": 42 },
+      { "label": "Tue", "value": 58 },
+      { "label": "Wed", "value": 49 },
+      { "label": "Thu", "value": 64 },
+      { "label": "Fri", "value": 82 },
+      { "label": "Sat", "value": 91 },
+      { "label": "Sun", "value": 56 }
+    ],
+    "revenueTrends": [
+      { "label": "Jan", "value": 2400 },
+      { "label": "Feb", "value": 2650 },
+      { "label": "Mar", "value": 3100 },
+      { "label": "Apr", "value": 2850 },
+      { "label": "May", "value": 3600 },
+      { "label": "Jun", "value": 3950 },
+      { "label": "Jul", "value": 4650 },
+      { "label": "Aug", "value": 5120 },
+      { "label": "Sep", "value": 4580 }
+    ],
+    "dailyRevenue": [
+      { "label": "W1", "value": 1820 },
+      { "label": "W2", "value": 1950 },
+      { "label": "W3", "value": 1740 },
+      { "label": "W4", "value": 2380 },
+      { "label": "W5", "value": 2190 },
+      { "label": "W6", "value": 2640 },
+      { "label": "W7", "value": 2510 },
+      { "label": "W8", "value": 2810 }
+    ]
+  }
+}

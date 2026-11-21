@@ -1,0 +1,160 @@
+@import url('./admin-common.css');
+
+.schedule-tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.schedule-tab {
+  padding: 7px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-surface);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.schedule-tab:hover {
+  color: var(--text-primary);
+  background: var(--bg-subtle);
+}
+
+.schedule-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.schedule-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 18px 22px;
+  box-shadow: var(--shadow-card);
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1.1fr;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.schedule-card:hover {
+  border-color: var(--accent);
+}
+
+.schedule-flight-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.schedule-plane-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--blue-bg);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.schedule-flight-code {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.schedule-aircraft {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.schedule-timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.schedule-time-block {
+  min-width: 85px;
+}
+
+.schedule-time-block.end {
+  text-align: right;
+}
+
+.schedule-time {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.schedule-city {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.schedule-duration-line {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  font-size: 11.5px;
+}
+
+.schedule-line-bar {
+  width: 100%;
+  height: 1px;
+  background: var(--border-color);
+  position: relative;
+}
+
+.schedule-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.schedule-gate-meta {
+  text-align: right;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.schedule-gate-meta strong {
+  color: var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .schedule-card {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .schedule-right {
+    justify-content: space-between;
+  }
+  .schedule-gate-meta {
+    text-align: left;
+  }
+}

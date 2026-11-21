@@ -1,0 +1,6 @@
+@import url('./admin-common.css');
+
+.payment-method-cell {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
